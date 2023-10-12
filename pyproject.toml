@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "labs-ml-t7-1"
+version = "0.1.0"
+description = ""
+authors = ["Borys Kovba <borys.kovba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.1.1"
+numpy = "^1.26.0"
+notebook = "^7.0.4"
+scikit-learn = "^1.3.1"
+matplotlib = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
